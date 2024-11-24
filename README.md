@@ -1,6 +1,6 @@
 # Olist Store Sales Analysis Using SQL
 
-![image](https://github.com/tolamoye/Olist-E-commerce-Data-Aanalysis/assets/128150171/b57e7bae-89a7-4b4f-84cc-449cbd1912e3)
+![olist_store_image](https://github.com/Sharath2903/oilst_store_analysis_SQL/blob/main/olist_store_image.png)
 --
 
 ## Project Overview
