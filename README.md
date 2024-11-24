@@ -257,7 +257,7 @@ ORDER BY
     avg_review_score DESC;
 ```
 
-###7. Top 30 Product Categories by Negative Review Rate
+### 7. Top 30 Product Categories by Negative Review Rate
 
 ```sql
 WITH negative_reviews AS (
@@ -437,3 +437,50 @@ FROM
 ORDER BY 
     total_score DESC;
 ```
+
+
+## Insights:
+### 1. Order Patterns:
+
+- The highest number of orders occurs on Monday (16,196 orders), followed by Tuesday (15,963 orders) and Wednesday (15,552 orders). This suggests a strong beginning-of-week purchasing trend.
+
+### 2. Revenue Distribution:
+ 
+- The top revenue-generating states include São Paulo, Rio de Janeiro, and Minas Gerais, collectively contributing to more than 40% of total sales.
+- São Paulo alone accounts for a significant proportion of orders and revenue, marking it as a critical market for growth.
+
+### 3. Delayed Deliveries:
+- Approximately 15% of orders experience delays beyond the promised delivery date, with the highest delays occurring in orders placed during holiday seasons.
+- Certain product categories, like electronics and home appliances, have disproportionately higher delivery delays.
+
+
+### 4. Payment Trends:
+- Over 60% of customers prefer paying through credit cards, followed by boleto bancário (Brazilian bank slip) at 25%. Alternative payment methods show limited adoption.
+
+### 5. Profit Margins:
+- While most product categories maintain a positive profit margin, freight costs in remote areas (e.g., Northern Brazil) erode profitability by 5-15%, depending on the product.
+
+### 6. Repeat Customers:
+- The repeat purchase rate is highest in the fashion and beauty categories, with a 35% customer retention rate, indicating strong customer loyalty.
+
+## Recommendations:
+
+### 1. Optimizing Delivery Performance:
+
+- Implement advanced logistics tools to better predict and mitigate delays during peak seasons, focusing on regions with higher delivery times.
+- Partner with local carriers in underperforming areas to reduce freight costs and improve profit margins.
+
+### 2. Targeting Key Regions:
+- Invest in targeted marketing campaigns in high-performing states like São Paulo and emerging markets with growing order volumes.
+- Enhance localized inventory management to align stock levels with regional demand patterns.
+
+### 3. Customer Retention Strategies:
+- Olist should personalize the customer experience using data and segmentation strategies. (Note: Tailoring recommendations, offers, and communication based on customer insights creates a personalized and engaging experience.)
+
+### 4. Continuous Feedback Mechanisms:
+- Conduct surveys to understand customer satisfaction, particularly focusing on delivery speed and payment experiences.
+- Regularly evaluate project timelines, profit margins, and cost overruns to address inefficiencies proactively.
+
+
+
+
